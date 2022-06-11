@@ -23,4 +23,4 @@ def hello(request):
 
 
 def login(request):
-    return render(request, 'hello_azure/login.html')
+    return render(request, 'registration/login.html')
